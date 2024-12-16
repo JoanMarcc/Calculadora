@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Calculadora Avanzada con Historial</title>
+</head>
+<body>
+ <h1>Calculadora Avanzada</h1>
+ <form id="calculatorForm">
+ <label for="num1">Número 1:</label>
+ <input type="number" id="num1" name="num1" required>
+ <br>
+ <label for="num2">Número 2:</label>
+ <input type="number" id="num2" name="num2" required>
+ <br>
+ <label for="operation">Operación:</label>
+ <select id="operation" name="operation">
+ <option value="add">Suma</option>
+ <option value="subtract">Resta</option>
+ <option value="multiply">Multiplicación</option>
+ <option value="divide">División</option>
+ </select>
+ <br>
+ <button type="submit">Calcular</button>
+ </form>
+ <h2>Resultado:</h2>
+ <p id="result">Aquí aparecerá el resultado</p>
+ <h2>Historial</h2>
+ <ul id="history">
+ <!-- Aquí se añadirá el historial de operaciones -->
+ </ul>
+ <script src="script.js"></script>
+</body>
+</html>
